@@ -1,5 +1,7 @@
-doctype html
-html
-    head
-    body
-    script
+extends _component/layout/layout
+block config
+  -
+    var myTitleForGoogleSearch = 'Dorin\'s Portfolio'
+    var myDescriptionForGoogleSearch = "A web developer portfolio.";
+block content
+  include _component/landing-page/landing-page
