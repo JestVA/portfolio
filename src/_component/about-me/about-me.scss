@@ -1,0 +1,36 @@
+.section-1{
+  // background:url('https://kevinlehtla.ee/wp-content/uploads/2018/11/animal-cute-grass-145952-1.png');// Author flicker taken from Pexels
+  // background-size: cover;
+  // background-position: bottom center;
+  & .container-about-me{
+    position: absolute;
+    max-width: 600px;
+    bottom: 25vh;
+    padding: 60px 120px;
+    & h1{
+      margin: 0px 0px 0px -3px;
+      font-size: 5em;
+      color: yellow;
+      font-weight: bold;
+      background-color: #02020294;
+    }
+    & p{
+      color: white;
+      font-size: 2em;
+      margin-bottom: 35px;
+      background-color: #ab811730;
+    }
+    & a{
+      color: white;
+      border: solid 2px white;
+      padding: 10px 20px;
+      text-decoration: none;
+      transition: all 0.2s ease;
+      &:hover{
+        color: black;
+        background: white;
+        transition: all 0.2s ease;
+      }
+    }
+  }
+}
