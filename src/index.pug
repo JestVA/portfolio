@@ -1,7 +1,8 @@
 extends _component/layout/layout
-block config
-  -
-    var myTitleForGoogleSearch = 'Dorin\'s Portfolio'
-    var myDescriptionForGoogleSearch = "A web developer portfolio.";
+block config  
+  - var SiteTitle = 'Dorin\'s Portfolio';
 block content
-  include _component/landing-page/landing-page
+  include _component/animation/animation
+block content-1  
+  include _component/hover-me/hover-me
+  
