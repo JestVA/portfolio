@@ -1,0 +1,35 @@
+.module-table-wrapper {
+  background-color: #ff6847;
+  align-items: center;
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+
+.module-table {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #ff6847;
+  font-size: 4rem;
+  // padding-left: 25px;
+  overflow: hidden;
+  :hover {
+    background-color: #f3cb09;
+    // transition: 1s;
+  }
+}
+
+.item-box {
+  border: 8px solid #f3cb09;
+  position: relative;
+  margin: 1rem;
+  padding: 2rem;
+  // :hover {
+  //   border: 8px solid black;
+  // }
+}
+
