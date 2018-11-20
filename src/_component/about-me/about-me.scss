@@ -4,6 +4,7 @@
   // background-position: bottom center;
   & .container-about-me{
     position: absolute;
+    z-index: 2;
     max-width: 600px;
     bottom: 25vh;
     padding: 60px 120px;

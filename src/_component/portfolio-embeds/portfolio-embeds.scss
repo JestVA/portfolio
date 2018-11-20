@@ -1,24 +1,54 @@
+.portfolio-content {
+  position: absolute;
+  top: 100vh;
+  overflow-x: hidden;
+  width: 100%;
+  background-color: #55549c;
+  min-height: 100vh;
+  text-align: center;
+  padding-top: 10vh;
+  color: #fff;
+  font-size: 24px;
+}
+.portfolio-copy {
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+}
+
 .portfolio-embeds {
   display: flex;
   flex-wrap: wrap;
   margin: 0 auto;
-  max-width: 100%;
-  padding: 2rem;
+  // width: 100%;
+  // padding: 2rem;
   justify-content: center;
-  background-color: teal;
+  // background-color: #55549c;
+  // position: absolute;
+  // top: 100vh;
+  // overflow-x: hidden;
+  // height: 100vh;
 }
 
 .embeds {
   padding: 2rem;
 }
 
+.hero-text {
+  font-size: 32px;
+  color: #fff;
+  padding-bottom: 5vh;
+  // align-items: center;
+}
 
-#portfolio-content {
-  font-size: 5vh;
-  color: #e6e6e6;
-  background-color: teal;
-  text-align: center;
-  font-weight: bold;
-  line-height: 4rem;
-  padding-top: 1rem;
+p {
+  padding: 5vh;
+  // max-width: 500px;
+}
+
+.bigger {
+  font-size: 32px;
+  font-weight: 600;
+  color: yellow;
+  padding-top: 0;
 }
