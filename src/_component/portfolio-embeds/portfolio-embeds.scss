@@ -112,11 +112,20 @@ p {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  padding-top: 150px;
+  padding-top: 47px;
 }
 
 .website-hero-text {
   max-width: 40vh;
+  padding-bottom: 1.5rem;
 }
 
+.opacity {
+  opacity: 0.7;
+  transition: all 1s;
+}
 
+.opacity:hover {
+  opacity: 1;
+  transform: scale(1.05);
+}
