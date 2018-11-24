@@ -26,6 +26,10 @@ const watch = ({
         `./${dir.source}/**/*.pug`,
         `./${dir.source}/${dir.data}/**/*.json`,
       ], gulp.series('pug'));
+    
+      gulp.watch([
+        `./${dir.source}/**/*.js`,
+      ], gulp.series('copy', 'pug'));
 
       // Template
       dir.templateCollection.map(folderName => {
