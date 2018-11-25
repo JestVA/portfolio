@@ -151,7 +151,11 @@ p {
   align-items: center;
   justify-content: center;
   overflow: hidden;
-  margin-bottom: 1rem;
+  margin-bottom: 3rem;
+  background-color: #ff6847;
+}
+.rationale {
+  background-color: #ff6847;
 }
 .section h1 {
   text-align: center;
@@ -180,3 +184,32 @@ p {
 .store-logo {
   z-index: 3;
 }
+
+.contact-links-text {
+  display: flex;
+  justify-content: center;
+  font-size: 3rem;
+  text-decoration: none;
+  color: #fff;
+  background-color: #55549c;
+  align-items: center;
+}
+
+.footer {
+  font-size: 0.9rem;
+  text-decoration: none;
+  background-color: #55549c;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: #fff;
+
+}
+
+.design-by {
+  text-decoration: none;
+  color: #fff;
+
+}
+

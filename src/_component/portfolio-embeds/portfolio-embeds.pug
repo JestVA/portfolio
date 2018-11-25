@@ -66,23 +66,26 @@
           //- img.website.opacity(src="../asset/image/zumzet.png", alt="Website example")
           img.website.opacity(src=`${baseUrl}/asset/image/zumzet.png`, alt="Website example")
 
-  .rationale
-    p Or this script which simulates a brownian motion - but in a banner ad! 
-  .section
-    h1 Does this look like your Christmas shopping spree?
-    img.store-logo(src="../asset/image/argos-logo.png")
-    button.banner(onclick="window.open('https://www.argos.co.uk', '_blank')") Order online.
-    .video-container
-      video(autoplay='', loop='', muted='')
-        source(src="../asset/video/banner-argos.mov", type='video/mp4')
-      //- p Order online from Argos. Thousands of products.
-      //- a.btn.btn-primary(href='https://www.argos.co.uk/') Start Shopping
-
-  //- Deprecated
-  //- .skill-list
-  //-   p My journey in front end.
-  //-   //- img(src="/asset/image/skill-list.svg", alt="My personal journey in programming for front end development.")
-  //-   //- .skill-list-graphic
+    .rationale
+      p Or this script which simulates a brownian motion - but in a banner ad! 
+    .section
+      h1.readable Does this look like your Christmas shopping spree?
+      img.store-logo(src="../asset/image/argos-logo.png")
+      button.banner(onclick="window.open('https://www.argos.co.uk', '_blank')") Order online.
+      .video-container
+        video(autoplay='', loop='', muted='')
+          source(src="../asset/video/banner-argos.mov", type='video/mp4')
+        //- p Order online from Argos. Thousands of products.
+        //- a.btn.btn-primary(href='https://www.argos.co.uk/') Start Shopping
+  .contact-links-text
+    p
+      a.footer-link(href="https://www.instagram.com/devfrend", target="_blank")
+        span(class="zumzet_icon--instagram") 
+    p
+      a.footer-link(href="https://www.github.com/JestVA", target="_blank")
+        span(class="zumzet_icon--github")
+    .footer
+      p &copy; 2018 Design by #[a.design-by(href="https://github.com/JestVA", target="_blank") JestVA] 
 
 script.
   window.addEventListener('load', () => {
