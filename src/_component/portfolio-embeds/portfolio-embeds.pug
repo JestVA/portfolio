@@ -38,11 +38,11 @@
       p Or this script which simulates a brownian motion - but in a banner ad! 
     .section
       h1.readable Does this look like your Christmas shopping spree?
-      img.store-logo(src="../asset/image/argos-logo.png")
+      img.store-logo(src=`${baseUrl}/asset/image/argos-logo.png`)
       button.banner(onclick="window.open('https://www.argos.co.uk', '_blank')") Order online.
       .video-container
         video(autoplay='', loop='', muted='')
-          source(src="../asset/video/banner-argos.mov", type='video/mp4')
+          source(src=`${baseUrl}/asset/video/banner-argos.mov`, type='video/mp4')
         //- p Order online from Argos. Thousands of products.
         //- a.btn.btn-primary(href='https://www.argos.co.uk/') Start Shopping
   .contact-links-text
